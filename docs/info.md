@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+An AND logic gate take two inputs and generate 1 when both inputs equal 1. Here, a logic gate takes two input switches into account to light up an LED when both swithces are 1; the LEDs positive node is on the gate's output and its negative node on ground. 
 
 ## How to test
 
-Explain how to use your project
+Start the stimulation and toggle the two input switches. If the LED lights up if and only if both switches are on (i.e. the AND gate has outputted 1) then the file works.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Of the eight input switches, two were used for the AND gate connected to the LED. A ground connection for the LED was also necessary.
